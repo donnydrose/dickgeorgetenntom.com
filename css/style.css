@@ -1,4 +1,8 @@
-body{
+* {
+	box-sizing: border-box;
+}
+
+	body{
 	font-family: Verdana, Arial, sans-serif;
 	font-size: 11px;
 	font-weight: normal;
@@ -48,7 +52,7 @@ h2 {
 	text-align: center;
 }
 #main{
-	background: url(/images/pageBG.jpg) no-repeat top #0E0000;
+	background: url(../images/pageBG.jpg) no-repeat top #0E0000;
 	margin: auto;
 	width:984px;
 }
@@ -88,7 +92,7 @@ h2 {
 	font-size: 0;
 }
 #stage{
-	background: url(/images/stage.jpg) no-repeat #0E0000;
+	background: url(../images/stage.jpg) no-repeat #0E0000;
 	float:right;
 	height: 486px;
 	margin: -125px 0 0 329px;
@@ -128,7 +132,7 @@ h2 {
 	width:425px;
 }
 #wrapper{
-	background: url(/images/pageBG.jpg) repeat-x top #0E0000;
+	background: url(../images/pageBG.jpg) repeat-x top #0E0000;
 }
 #bottom{
 	margin-top:10px;
